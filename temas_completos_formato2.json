@@ -1,0 +1,581 @@
+{
+  "1": {
+    "titulo": "Procesos de la Dirección de Proyectos",
+    "items": [
+      {
+        "pregunta": "¿Qué es la Dirección de Proyectos?",
+        "respuesta": "Aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir requisitos (PMBOK 2017)."
+      },
+      {
+        "pregunta": "¿Qué es un proceso en dirección de proyectos?",
+        "respuesta": "Conjunto de actividades relacionadas y coordinadas para lograr un resultado específico dentro del proyecto."
+      },
+      {
+        "pregunta": "¿Cuáles son los 5 grupos de procesos?",
+        "respuesta": "Inicio, Planificación, Ejecución, Monitoreo y Control, y Cierre."
+      },
+      {
+        "pregunta": "¿Qué se hace en el grupo de Inicio?",
+        "respuesta": "Se autoriza formalmente el proyecto/fase mediante el Acta de Constitución y se identifican interesados."
+      },
+      {
+        "pregunta": "¿Qué se hace en Planificación?",
+        "respuesta": "Se define el alcance, se desarrollan cronograma y presupuesto, y se planifican calidad, riesgos, recursos, comunicaciones, adquisiciones e interesados."
+      },
+      {
+        "pregunta": "¿Qué se hace en Ejecución?",
+        "respuesta": "Se realiza el trabajo definido en el plan, se dirige al equipo, se gestionan las comunicaciones, la calidad y los interesados."
+      },
+      {
+        "pregunta": "¿Qué se hace en Monitoreo y Control?",
+        "respuesta": "Se da seguimiento al avance, se comparan resultados contra la línea base, se reporta desempeño y se controlan cambios."
+      },
+      {
+        "pregunta": "¿Qué se hace en Cierre?",
+        "respuesta": "Se formaliza la aceptación de los entregables, se cierran contratos y se documentan lecciones aprendidas."
+      },
+      {
+        "pregunta": "¿Cuáles son las 10 áreas de conocimiento?",
+        "respuesta": "Integración, Alcance, Cronograma, Costos, Calidad, Recursos, Comunicaciones, Riesgos, Adquisiciones, Interesados."
+      },
+      {
+        "pregunta": "¿Cuántos procesos hay según PMBOK 6ª ed.?",
+        "respuesta": "49 procesos distribuidos en 5 grupos y 10 áreas."
+      },
+      {
+        "pregunta": "Ejemplo práctico de relación procesos/áreas",
+        "respuesta": "En Planificación del Cronograma se usa WBS del Alcance, estimaciones de Recursos y Costos, y se coordinan con Riesgos y Comunicaciones."
+      },
+      {
+        "pregunta": "Herramientas comunes en dirección de proyectos",
+        "respuesta": "Acta, Plan para la Dirección del Proyecto, EVM, matriz RACI, registro de riesgos, registro de interesados, lecciones aprendidas."
+      }
+    ]
+  },
+  "2": {
+    "titulo": "Gestión del Alcance",
+    "items": [
+      {
+        "pregunta": "¿Qué es el alcance del proyecto?",
+        "respuesta": "Todo el trabajo requerido (y solo el necesario) para entregar el producto/servicio con las características acordadas."
+      },
+      {
+        "pregunta": "¿Cómo se define el alcance?",
+        "respuesta": "Mediante recolección de requisitos, enunciado del alcance, WBS/EDT y su validación con el cliente."
+      },
+      {
+        "pregunta": "¿Qué contiene la Declaración del Alcance?",
+        "respuesta": "Descripción del producto, entregables, criterios de aceptación, exclusiones, restricciones y supuestos."
+      },
+      {
+        "pregunta": "¿Qué es la EDT (WBS)?",
+        "respuesta": "Descomposición jerárquica del trabajo del proyecto en entregables y paquetes de trabajo manejables."
+      },
+      {
+        "pregunta": "¿Qué es el diccionario de la EDT?",
+        "respuesta": "Documento que detalla cada componente de la WBS: descripción, criterios de aceptación, responsables, recursos, costos y riesgos asociados."
+      },
+      {
+        "pregunta": "¿Diferencia entre alcance del producto y del proyecto?",
+        "respuesta": "Producto: características y funciones. Proyecto: trabajo necesario para entregarlo."
+      },
+      {
+        "pregunta": "¿Qué es el scope creep y cómo prevenirlo?",
+        "respuesta": "Crecimiento no controlado del alcance; se previene con control integrado de cambios, criterios de aceptación claros y gestión de interesados."
+      },
+      {
+        "pregunta": "¿Cómo se valida el alcance?",
+        "respuesta": "Con inspecciones y aceptación formal por el cliente de los entregables completados."
+      },
+      {
+        "pregunta": "¿Cómo se controla el alcance?",
+        "respuesta": "Comparando trabajo ejecutado vs. WBS, gestionando cambios, y actualizando la línea base del alcance."
+      },
+      {
+        "pregunta": "Ejemplo de WBS simple para un sitio web",
+        "respuesta": "1. Planificación; 2. Diseño (UI/UX); 3. Desarrollo (Frontend/Backend); 4. Pruebas; 5. Despliegue; 6. Capacitación."
+      }
+    ]
+  },
+  "3": {
+    "titulo": "Gestión del Tiempo (Cronograma)",
+    "items": [
+      {
+        "pregunta": "¿Qué es el cronograma del proyecto?",
+        "respuesta": "Representación del calendario del proyecto que muestra actividades, duraciones, fechas y secuencias."
+      },
+      {
+        "pregunta": "Pasos para gestionar el tiempo",
+        "respuesta": "Definir actividades, secuenciarlas, estimar duraciones, desarrollar cronograma y controlarlo."
+      },
+      {
+        "pregunta": "¿Qué es una actividad?",
+        "respuesta": "Unidad de trabajo que consume tiempo y recursos; puede contener tareas."
+      },
+      {
+        "pregunta": "¿Qué es un hito?",
+        "respuesta": "Evento significativo sin duración que marca un punto clave en el proyecto."
+      },
+      {
+        "pregunta": "¿Qué es la red de precedencias (PDM)?",
+        "respuesta": "Diagrama que muestra relaciones entre actividades (Fin‑Inicio, Inicio‑Inicio, Fin‑Fin, Inicio‑Fin)."
+      },
+      {
+        "pregunta": "Métodos de estimación de duración",
+        "respuesta": "Juicio experto, análogo, paramétrico y PERT (To+4Tm+Tp)/6."
+      },
+      {
+        "pregunta": "¿Qué es la ruta crítica (CPM)?",
+        "respuesta": "Secuencia más larga de actividades con holgura total cero que determina la duración del proyecto."
+      },
+      {
+        "pregunta": "¿Qué es la holgura?",
+        "respuesta": "Tiempo que una actividad puede retrasarse sin afectar la fecha de fin (holgura total) o sin afectar sucesoras inmediatas (holgura libre)."
+      },
+      {
+        "pregunta": "¿Qué es fast tracking?",
+        "respuesta": "Acelerar realizando actividades en paralelo, incrementa riesgo."
+      },
+      {
+        "pregunta": "¿Qué es crashing?",
+        "respuesta": "Acelerar agregando recursos para reducir duración, incrementa costo."
+      },
+      {
+        "pregunta": "¿Qué es la línea base del cronograma?",
+        "respuesta": "Versión aprobada del cronograma usada para medir desempeño."
+      },
+      {
+        "pregunta": "Herramientas comunes de cronograma",
+        "respuesta": "Gantt, CPM, PERT, calendarios de recursos, MS Project, Excel/Google Sheets, Trello/Asana."
+      },
+      {
+        "pregunta": "Ejemplo breve",
+        "respuesta": "A(3d)→B(5d)→C(2d); ruta crítica 10 días; retraso de B retrasa todo el proyecto."
+      }
+    ]
+  },
+  "4": {
+    "titulo": "Gestión de Costos del Proyecto",
+    "items": [
+      {
+        "pregunta": "¿Qué es la gestión de costos del proyecto?",
+        "respuesta": "Es el área de conocimiento que se encarga de estimar, presupuestar y controlar los costos para asegurar que el proyecto se complete dentro del presupuesto aprobado."
+      },
+      {
+        "pregunta": "¿Cuáles son los procesos de la gestión de costos según el PMBOK 6ª edición?",
+        "respuesta": "Son cuatro: 1) Planificar la gestión de costos, 2) Estimar los costos, 3) Determinar el presupuesto, 4) Controlar los costos."
+      },
+      {
+        "pregunta": "¿Qué significa planificar la gestión de costos?",
+        "respuesta": "Es el proceso de definir cómo se estimarán, presupuestarán, gestionarán, monitorearán y controlarán los costos del proyecto."
+      },
+      {
+        "pregunta": "¿Qué técnicas se utilizan para estimar los costos?",
+        "respuesta": "Algunas son: estimación análoga, paramétrica, ascendente, de tres valores (PERT) y juicio de expertos."
+      },
+      {
+        "pregunta": "¿Qué es el presupuesto del proyecto?",
+        "respuesta": "Es la suma de los costos estimados de las actividades, paquetes de trabajo o cuentas de control, que se asigna a un plan temporal para establecer la línea base de costos."
+      },
+      {
+        "pregunta": "¿Qué significa la línea base de costos?",
+        "respuesta": "Es la versión aprobada del presupuesto del proyecto, que se usa como referencia para medir y controlar el desempeño del costo."
+      },
+      {
+        "pregunta": "¿Qué es el control de costos?",
+        "respuesta": "Es el proceso de monitorear el estado del proyecto para actualizar el presupuesto y gestionar los cambios a la línea base de costos."
+      },
+      {
+        "pregunta": "¿Qué es el valor ganado (EVM)?",
+        "respuesta": "Es una técnica que combina alcance, cronograma y costos para evaluar el desempeño del proyecto."
+      },
+      {
+        "pregunta": "¿Qué indicadores se usan en valor ganado?",
+        "respuesta": "Los principales son: CPI (índice de desempeño de costos), SPI (índice de desempeño de cronograma), EV (valor ganado), PV (valor planificado) y AC (costo real)."
+      },
+      {
+        "pregunta": "¿Cuál es el objetivo de la gestión de costos?",
+        "respuesta": "Asegurar que el proyecto se ejecute dentro del presupuesto aprobado, optimizando el uso de los recursos financieros."
+      }
+    ]
+  },
+  "5": {
+    "titulo": "Gestión de Riesgos",
+    "items": [
+      {
+        "pregunta": "¿Qué es un riesgo?",
+        "respuesta": "Evento o condición incierta que, si ocurre, impacta objetivos del proyecto (tiempo, costo, alcance, calidad) positiva o negativamente."
+      },
+      {
+        "pregunta": "Pasos de la gestión de riesgos",
+        "respuesta": "Planificar la gestión, identificar riesgos, análisis cualitativo, análisis cuantitativo, planificar respuestas, implementar respuestas, monitorear riesgos."
+      },
+      {
+        "pregunta": "¿Qué es el plan de gestión de riesgos?",
+        "respuesta": "Define metodología, roles, escalas de probabilidad/impacto, categorías, umbrales y formatos."
+      },
+      {
+        "pregunta": "¿Qué es la Estructura de Desglose de Riesgos (RBS)?",
+        "respuesta": "Clasificación jerárquica de fuentes de riesgo (técnico, externo, organizacional, gestión, etc.)."
+      },
+      {
+        "pregunta": "Técnicas para identificar riesgos",
+        "respuesta": "Lluvia de ideas, entrevistas, Delphi, análisis DAFO, listas de chequeo, lecciones aprendidas, revisión de documentos."
+      },
+      {
+        "pregunta": "Análisis cualitativo",
+        "respuesta": "Evaluar probabilidad e impacto para priorizar; usar matriz PxI, urgencia, detectabilidad y exposición."
+      },
+      {
+        "pregunta": "Análisis cuantitativo",
+        "respuesta": "Cuantificar efecto en objetivos con EMV (∑p×impacto), simulación Monte Carlo, árbol de decisiones, sensibilidad (tornado)."
+      },
+      {
+        "pregunta": "Estrategias para amenazas",
+        "respuesta": "Evitar, Mitigar, Transferir, Aceptar (activa/pasiva)."
+      },
+      {
+        "pregunta": "Estrategias para oportunidades",
+        "respuesta": "Explotar, Potenciar, Compartir, Aceptar."
+      },
+      {
+        "pregunta": "¿Qué es un riesgo residual y uno secundario?",
+        "respuesta": "Residual: queda tras implementar respuesta. Secundario: surge como resultado de una respuesta aplicada."
+      },
+      {
+        "pregunta": "¿Qué es un trigger o disparador?",
+        "respuesta": "Señal o condición que indica que un riesgo está a punto de ocurrir o ha ocurrido."
+      },
+      {
+        "pregunta": "¿Qué es el registro de riesgos?",
+        "respuesta": "Documento vivo con riesgos, causas, efectos, propietario, respuestas, disparadores, estado y fecha objetivo."
+      },
+      {
+        "pregunta": "¿Qué son las reservas?",
+        "respuesta": "Contingencia: para riesgos conocidos; Gestión: para desconocidos. Ambas requieren control; la de gestión con aprobación direccional."
+      },
+      {
+        "pregunta": "Monitoreo y control de riesgos",
+        "respuesta": "Revisiones periódicas, auditorías de riesgos, análisis de reservas, cierre/actualización de riesgos y lecciones aprendidas."
+      },
+      {
+        "pregunta": "Métricas de riesgo",
+        "respuesta": "N° de riesgos abiertos, exposición total (∑EMV), % de riesgos mitigados, efectividad de respuestas."
+      },
+      {
+        "pregunta": "Ejemplo de registro de riesgos",
+        "respuesta": "R1 Retraso proveedor: P=Alta, I=Alta, Respuesta=Mitigar (proveedor alterno), Dueño=Compras, Trigger=notificación de atraso."
+      }
+    ]
+  },
+  "6": {
+    "titulo": "Gestión de la Calidad",
+    "items": [
+      {
+        "pregunta": "¿Qué es calidad en proyectos?",
+        "respuesta": "Grado en que un conjunto de características del entregable cumple con requisitos y expectativas."
+      },
+      {
+        "pregunta": "Procesos de calidad",
+        "respuesta": "Planificar la calidad, Gestionar la calidad (aseguramiento/mejora), Controlar la calidad (inspección y medición)."
+      },
+      {
+        "pregunta": "¿Qué incluye el Plan de Gestión de la Calidad?",
+        "respuesta": "Estándares aplicables, métricas, roles, procesos, procedimientos de auditoría y control, criterios de aceptación, umbrales."
+      },
+      {
+        "pregunta": "Siete herramientas básicas de la calidad",
+        "respuesta": "Causa‑efecto (Ishikawa), hoja de verificación, histograma, Pareto, diagrama de dispersión, gráficos de control, estratificación/flujo."
+      },
+      {
+        "pregunta": "Costos de la calidad (CoQ)",
+        "respuesta": "Prevención y Evaluación (conformidad); Fallas internas y externas (no conformidad)."
+      },
+      {
+        "pregunta": "¿Diferencia asegurar vs. controlar la calidad?",
+        "respuesta": "Asegurar: procesos adecuados (proactivo). Controlar: verificar producto/resultado (reactivo)."
+      },
+      {
+        "pregunta": "¿Qué es un gráfico de control?",
+        "respuesta": "Herramienta para verificar estabilidad del proceso respecto a límites de control; ayuda a distinguir causas comunes vs. especiales."
+      },
+      {
+        "pregunta": "¿Qué es muestreo por atributos vs por variables?",
+        "respuesta": "Atributos: conforme/no conforme. Variables: medición continua (p.e., tiempo, peso)."
+      },
+      {
+        "pregunta": "Tolerancias vs. límites de control vs. especificación",
+        "respuesta": "Tolerancias: lo que el cliente acepta; límites de control: comportamiento del proceso; especificación: requisito del diseño."
+      },
+      {
+        "pregunta": "Mejora continua (PDCA/Kaizen)",
+        "respuesta": "Planear‑Hacer‑Verificar‑Actuar para elevar desempeño de procesos y productos."
+      },
+      {
+        "pregunta": "Métricas de calidad comunes",
+        "respuesta": "Tasa de defectos, densidad de defectos, retrabajo, cobertura de pruebas, satisfacción del cliente."
+      },
+      {
+        "pregunta": "Ejemplo en software",
+        "respuesta": "Estrategia: revisiones de código (prevención), pruebas unitarias/CI (evaluación), métricas de defectos y gráficos de control."
+      },
+      {
+        "pregunta": "Auditorías de calidad",
+        "respuesta": "Revisión independiente para verificar cumplimiento de procesos y detectar oportunidades de mejora."
+      }
+    ]
+  },
+  "7": {
+    "titulo": "Gestión de Costos del Proyecto",
+    "items": [
+      {
+        "pregunta": "¿Qué es la gestión de costos del proyecto?",
+        "respuesta": "Procesos para planificar, estimar, presupuestar y controlar los costos del proyecto."
+      },
+      {
+        "pregunta": "¿Cuáles son los procesos de la gestión de costos?",
+        "respuesta": "Planificar la gestión de costos, Estimar los costos, Determinar el presupuesto y Controlar los costos."
+      },
+      {
+        "pregunta": "¿Qué significa estimar los costos?",
+        "respuesta": "Calcular una aproximación de los recursos financieros necesarios para cada actividad o paquete de trabajo."
+      },
+      {
+        "pregunta": "¿Qué es determinar el presupuesto?",
+        "respuesta": "Sumar los costos estimados para establecer la línea base de costos aprobada."
+      },
+      {
+        "pregunta": "¿Qué es la línea base de costos?",
+        "respuesta": "Presupuesto aprobado distribuido en el tiempo, usado para medir el desempeño."
+      },
+      {
+        "pregunta": "¿Diferencia entre reservas de contingencia y de gestión?",
+        "respuesta": "La contingencia es para riesgos conocidos (dentro de la línea base); la de gestión es para riesgos desconocidos (fuera de la línea base)."
+      },
+      {
+        "pregunta": "¿Qué significa controlar los costos?",
+        "respuesta": "Monitorear costos, analizar variaciones y gestionar cambios para mantener el proyecto dentro del presupuesto."
+      },
+      {
+        "pregunta": "¿Qué es el método del Valor Ganado (EVM)?",
+        "respuesta": "Técnica que integra alcance, cronograma y costos para evaluar desempeño."
+      },
+      {
+        "pregunta": "¿Qué son CPI y SPI?",
+        "respuesta": "CPI mide eficiencia de costos (EV/AC) y SPI mide eficiencia de cronograma (EV/PV)."
+      },
+      {
+        "pregunta": "¿Qué es EAC?",
+        "respuesta": "Estimación al completar; proyección del costo total del proyecto con base en el desempeño actual."
+      }
+    ]
+  },
+  "8": {
+    "titulo": "Gestión de las Comunicaciones",
+    "items": [
+      {
+        "pregunta": "¿Qué es la gestión de comunicaciones?",
+        "respuesta": "Planificar, gestionar y monitorear el flujo de información del proyecto para que llegue a quien corresponde, cuando corresponde y con el formato adecuado."
+      },
+      {
+        "pregunta": "Procesos de comunicaciones",
+        "respuesta": "Planificar comunicaciones, Gestionar comunicaciones, Monitorear comunicaciones."
+      },
+      {
+        "pregunta": "Métodos de comunicación",
+        "respuesta": "Interactiva (bidireccional), Push (empuje: email), Pull (consulta: repositorio)."
+      },
+      {
+        "pregunta": "Canales de comunicación",
+        "respuesta": "n(n−1)/2 donde n es el número de personas del equipo."
+      },
+      {
+        "pregunta": "Contenido del plan de comunicaciones",
+        "respuesta": "Requerimientos de info, formato, frecuencia, medios, responsables, matriz de comunicaciones y protocolos de escalamiento."
+      },
+      {
+        "pregunta": "Barreras comunes de comunicación",
+        "respuesta": "Culturales, idioma, ruido, ambigüedad, falta de escucha activa, sobrecarga de información."
+      },
+      {
+        "pregunta": "Buenas prácticas de reuniones",
+        "respuesta": "Agenda previa, objetivos claros, registro de acuerdos, responsables y fechas, seguimiento."
+      },
+      {
+        "pregunta": "Informes de desempeño",
+        "respuesta": "Estado, progreso, proyecciones (EVM), hitos, riesgos y decisiones requeridas."
+      },
+      {
+        "pregunta": "Uso de dashboards",
+        "respuesta": "Visualizar KPIs críticos con semáforos y tendencias para toma de decisiones rápida."
+      },
+      {
+        "pregunta": "Métricas de comunicación",
+        "respuesta": "Entrega a tiempo de reportes, tasa de lectura/participación, tiempos de respuesta y satisfacción de interesados."
+      },
+      {
+        "pregunta": "Ejemplo",
+        "respuesta": "Reunión semanal (interactiva), reporte quincenal (push) y wiki del proyecto (pull) con control de versiones."
+      }
+    ]
+  },
+  "9": {
+    "titulo": "Gestión de las Adquisiciones",
+    "items": [
+      {
+        "pregunta": "¿Qué es gestión de adquisiciones?",
+        "respuesta": "Obtener bienes/servicios externos mediante planificación, selección de proveedores, contratación y control del desempeño."
+      },
+      {
+        "pregunta": "Decisión make-or-buy",
+        "respuesta": "Análisis para decidir si producir internamente o comprar/tercerizar."
+      },
+      {
+        "pregunta": "Documentos de adquisición",
+        "respuesta": "RFI (info), RFQ (cotización), RFP (propuesta), Especificación/SoW de adquisiciones."
+      },
+      {
+        "pregunta": "Criterios de selección de proveedores",
+        "respuesta": "Costo, experiencia, capacidad técnica, plan de trabajo, calidad, riesgos, cumplimiento legal."
+      },
+      {
+        "pregunta": "Tipos de contrato Precio Fijo",
+        "respuesta": "FFP (fijo), FPIF (con incentivos), FPEPA (ajuste económico). Riesgo mayor para el vendedor al fijar precio."
+      },
+      {
+        "pregunta": "Tipos de contrato de Costos Reembolsables",
+        "respuesta": "CPFF (tarifa fija), CPIF (incentivos), CPAF (honorarios por premio). Riesgo mayor para el comprador."
+      },
+      {
+        "pregunta": "Contrato Tiempo y Materiales (T&M)",
+        "respuesta": "Tarifas por hora/material; flexible para alcance incierto; requiere control estricto."
+      },
+      {
+        "pregunta": "Conferencias de oferentes (bidder conferences)",
+        "respuesta": "Aclaran dudas y nivelan información entre los licitantes."
+      },
+      {
+        "pregunta": "Control de adquisiciones",
+        "respuesta": "Revisiones de desempeño, auditorías, control de cambios contractuales, gestión de reclamos y pagos."
+      },
+      {
+        "pregunta": "Cierre de adquisiciones",
+        "respuesta": "Verificar entregables, aceptación formal, pagos finales, archivo contractual y lecciones aprendidas."
+      },
+      {
+        "pregunta": "Riesgos típicos en compras",
+        "respuesta": "Especificaciones ambiguas, proveedores incumplidos, cambios no controlados, costos ocultos y retrasos."
+      },
+      {
+        "pregunta": "Ejemplo",
+        "respuesta": "Seleccionar proveedor de nube con RFP, evaluación ponderada (técnico 60%, costo 40%), contrato FFP con hitos y penalizaciones."
+      }
+    ]
+  },
+  "10": {
+    "titulo": "Gestión de la Integración",
+    "items": [
+      {
+        "pregunta": "¿Qué es la integración del proyecto?",
+        "respuesta": "Coordinar procesos y actividades para que todas las áreas funcionen como un sistema coherente."
+      },
+      {
+        "pregunta": "Procesos de integración",
+        "respuesta": "Desarrollar Acta, Desarrollar Plan para la Dirección del Proyecto, Dirigir y Gestionar el Trabajo, Gestionar el Conocimiento, Monitorear y Controlar el Trabajo, Control Integrado de Cambios, Cerrar Proyecto/Fase."
+      },
+      {
+        "pregunta": "Contenido del Acta de Constitución",
+        "respuesta": "Propósito, objetivos medibles, criterios de éxito, requisitos de alto nivel, presupuesto de alto nivel, riesgos de alto nivel, gerente del proyecto y su autoridad."
+      },
+      {
+        "pregunta": "Plan para la Dirección del Proyecto",
+        "respuesta": "Integra planes subsidiarios: alcance, cronograma, costos, calidad, recursos, comunicaciones, riesgos, adquisiciones e interesados; y líneas base."
+      },
+      {
+        "pregunta": "Control Integrado de Cambios (CCB)",
+        "respuesta": "Proceso centralizado para evaluar, aprobar o rechazar cambios; mantiene integridad de las líneas base."
+      },
+      {
+        "pregunta": "Gestión del conocimiento",
+        "respuesta": "Lecciones aprendidas, repositorio, mentoring y prácticas para explotar conocimiento explícito y tácito."
+      },
+      {
+        "pregunta": "Gestión de configuraciones vs. control de cambios",
+        "respuesta": "Configuración: identidad y trazabilidad de componentes; Cambios: evaluación/decisión de modificaciones a líneas base."
+      },
+      {
+        "pregunta": "Datos, información y reportes de desempeño",
+        "respuesta": "Datos → Información → Reportes para facilitar decisiones."
+      },
+      {
+        "pregunta": "Cierre del proyecto",
+        "respuesta": "Aceptar formalmente, transferir entregables, liberar recursos, cerrar contratos y documentar lecciones."
+      },
+      {
+        "pregunta": "Métricas de integración",
+        "respuesta": "Tiempo de ciclo de cambios, variaciones acumuladas a líneas base, % de cambios urgentes vs. planificados."
+      },
+      {
+        "pregunta": "Ejemplo",
+        "respuesta": "Cambio de alcance evaluado por CCB; al aprobarse se actualizan WBS, cronograma, costos y comunicaciones antes de ejecutar."
+      }
+    ]
+  },
+  "11": {
+    "titulo": "Indicadores, KPIs y Dashboards",
+    "items": [
+      {
+        "pregunta": "¿Qué es un indicador y qué es un KPI?",
+        "respuesta": "Indicador: métrica de desempeño; KPI: indicador clave alineado a objetivos estratégicos (SMART)."
+      },
+      {
+        "pregunta": "Indicadores leading vs. lagging",
+        "respuesta": "Leading predicen resultados (p.e., tasa de descubrimiento de defectos). Lagging confirman resultados (p.e., % de retrabajo)."
+      },
+      {
+        "pregunta": "KPIs típicos de cronograma",
+        "respuesta": "SPI = EV/PV; Variación de cronograma SV = EV − PV; % hitos a tiempo."
+      },
+      {
+        "pregunta": "KPIs típicos de costos",
+        "respuesta": "CPI = EV/AC; Variación de costo CV = EV − AC; EAC y ETC para pronóstico."
+      },
+      {
+        "pregunta": "Fórmulas EVM clave",
+        "respuesta": "EV, PV, AC; CPI=EV/AC; SPI=EV/PV; EAC≈BAC/CPI (si tendencia continúa); ETC=EAC−AC; VAC=BAC−EAC; TCPI=(BAC−EV)/(BAC−AC)."
+      },
+      {
+        "pregunta": "KPIs de calidad",
+        "respuesta": "Densidad de defectos, tasa de fuga de defectos, % pruebas pasadas, MTTR."
+      },
+      {
+        "pregunta": "KPIs de alcance",
+        "respuesta": "Entregables completados vs. plan, % requisitos validados, cambios aprobados por release."
+      },
+      {
+        "pregunta": "KPIs de riesgos",
+        "respuesta": "N° de riesgos abiertos, exposición total EMV, % respuestas implementadas a tiempo, tendencia del riesgo residual."
+      },
+      {
+        "pregunta": "KPIs de recursos",
+        "respuesta": "Utilización, rotación, ausentismo, productividad por rol, índice de carga vs. capacidad."
+      },
+      {
+        "pregunta": "KPIs de comunicaciones",
+        "respuesta": "On-time reporting, tasa de lectura, tiempo de respuesta, satisfacción de interesados."
+      },
+      {
+        "pregunta": "Diseño de dashboards efectivos",
+        "respuesta": "Pocos KPIs críticos, visualizaciones claras, umbrales/semáforos, tendencias, frecuencia de actualización, fuente de datos confiable."
+      },
+      {
+        "pregunta": "Buenas prácticas de gobierno de KPIs",
+        "respuesta": "Definir dueños de KPI, periodicidad, acciones ante umbrales, y revisión continua de relevancia."
+      },
+      {
+        "pregunta": "Ejemplo de dashboard",
+        "respuesta": "Panel con SPI/CPI, % avance, riesgos activos, defectos por semana y salud de comunicaciones con semáforos y flechas de tendencia."
+      }
+    ]
+  }
+}
