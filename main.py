@@ -9,7 +9,7 @@ app = Flask(__name__)
 # TOKEN desde Railway
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 
-# CARGAR TU JSON REAL
+# CARGAR JSON 
 with open("temas_completos_formato2.json", "r", encoding="utf-8") as f:
     datos = json.load(f)
 
@@ -17,11 +17,11 @@ with open("temas_completos_formato2.json", "r", encoding="utf-8") as f:
 application = Application.builder().token(TOKEN).build()
 
 
-# ---------------- HANDLERS ----------------
+# -
 
 async def start(update, context):
     await update.message.reply_text(
-        "Hola, soy tu Chatbot de Titulación.\n\n"
+        "Hola, soy tu Chatbot de Administracion de Proyectos.\n\n"
         "Escribe un número de tema (1–11) o una pregunta exacta."
     )
 
@@ -49,8 +49,6 @@ application.add_handler(CommandHandler("start", start))
 application.add_handler(MessageHandler(filters.TEXT, mensaje))
 
 
-# ---------------- WEBHOOK PARA RAILWAY ----------------
-
 @app.post("/webhook")
 def webhook():
     update_json = request.get_json(force=True)
@@ -59,7 +57,6 @@ def webhook():
     return "ok", 200
 
 
-# ---------------- EJECUCIÓN ----------------
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
